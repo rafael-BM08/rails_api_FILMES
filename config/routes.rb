@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  post "/create", to: "auths#create"
   resources :movies
+
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
